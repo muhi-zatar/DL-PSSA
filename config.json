@@ -1,0 +1,18 @@
+{
+    "data": {
+        "file_path": "data.csv",
+        "target_column": "target"
+    },
+    "models_to_run": [
+        "decision_tree",
+        "random_forest",
+        "svm",
+        "xgboost",
+        "feedforward_nn",
+        "recurrent_nn",
+        "conditional_vae"
+    ],
+    "cvae": {
+        "latent_dim": 10
+    }
+}
