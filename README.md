@@ -1,7 +1,7 @@
 # Power System Security Assessment using Machine Learning
 
 ## Overview
-This project provides an end-to-end implementation of various machine learning and deep learning algorithms for power system security assessment. The repository includes data processing utilities, multiple ML/DL algorithms, and an evaluation framework.
+This is the implementation of the [paper](https://arxiv.org/abs/2407.08886) Semi-Supervised Multi-Task Learning Based Framework for Power System Security Assessment.
 
 ## Directory Structure
 ```
