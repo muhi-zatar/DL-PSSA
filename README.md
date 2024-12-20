@@ -7,16 +7,16 @@ This project provides an end-to-end implementation of various machine learning a
 ```
 .
 ├── src
-│   ├── decision_tree.py         # Implementation of Decision Tree algorithm
-│   ├── random_forest.py         # Implementation of Random Forest algorithm
+│   ├── DT.py                    # Implementation of Decision Tree algorithm
+│   ├── RF.py                    # Implementation of Random Forest algorithm
 │   ├── svm.py                   # Implementation of Support Vector Machine
-│   ├── xgboost_model.py         # Implementation of XGBoost
-│   ├── feedforward_nn.py        # Implementation of Feedforward Neural Network
-│   ├── recurrent_nn.py          # Implementation of Recurrent Neural Network
-│   ├── conditional_vae.py       # Implementation of Conditional Variational Autoencoder
+│   ├── xgboost.py               # Implementation of XGBoost
+│   ├── ffnn.py                  # Implementation of Feedforward Neural Network
+│   ├── rnn.py                   # Implementation of Recurrent Neural Network
+│   ├── ssmtl.py                 # Implementation of Conditional Variational Autoencoder
 ├── utils
-│   ├── data_loader.py           # Data loading and preprocessing
-│   ├── evaluation.py            # Evaluation metrics (Accuracy and F1 score)
+│   ├── data.py                  # Data loading and preprocessing
+│   ├── eval.py                  # Evaluation metrics (Accuracy and F1 score)
 ├── main.py                      # Main script to run the models
 ├── config.json                  # Configuration file for models and data
 ├── requirements.txt             # Python dependencies
